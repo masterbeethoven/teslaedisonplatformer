@@ -32,6 +32,7 @@ public class BulletControl : MonoBehaviour {
                 }
                 if (other.tag == "Enemy") {
                         Debug.Log ("Supressing Fire!");
+						Destroy (other.gameObject);
                 }
         }
 }

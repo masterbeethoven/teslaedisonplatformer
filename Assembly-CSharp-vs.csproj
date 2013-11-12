@@ -46,6 +46,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BulletControl.cs" />
      <Compile Include="Assets\Scripts\CharacterMoveNick.cs" />
+     <Compile Include="Assets\Scripts\EnemyDeath2.cs" />
      <Compile Include="Assets\Scripts\TeslaRaygun.cs" />
      <Compile Include="Assets\Scripts\TextInstructions.cs" />
   </ItemGroup>
