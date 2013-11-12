@@ -13,9 +13,10 @@ public class EnemyDeath2 : MonoBehaviour {
         
         }
         
-        void OnTriggerEnter() {
-                Destroy (gameObject);
-                
+        void OnTriggerEnter(Collider other) {
+        if (other.tag == "Enemy"){        
+		Destroy (gameObject);
+		}
                 
         }
 
