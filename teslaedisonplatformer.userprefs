@@ -4,8 +4,9 @@
     <Files>
       <File FileName="Assets/Scripts/TextInstructions.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/LoadScence.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/LoadScene2.cs" Line="14" Column="28" />
-      <File FileName="Assets/Scripts/SpiderMove.cs" Line="52" Column="39" />
+      <File FileName="Assets/Scripts/LoadScene2.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SpiderMove.cs" Line="52" Column="5" />
+      <File FileName="Assets/Scripts/SpiderAnimation.cs" Line="15" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
