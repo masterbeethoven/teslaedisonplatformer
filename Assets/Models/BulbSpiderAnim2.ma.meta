@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: 7657c2c910a354f79802ef34176784d6
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: BulbSpider
+    100002: //RootNode
+    100004: group
+    100006: joint1
+    100008: joint10
+    100010: joint10 1
+    100012: joint10 2
+    100014: joint11
+    100016: joint11 1
+    100018: joint11 2
+    100020: joint12
+    100022: joint13
+    100024: joint14
+    100026: joint15
+    100028: joint2
+    100030: joint3
+    100032: joint3 1
+    100034: joint3 2
+    100036: joint4
+    100038: joint4 1
+    100040: joint4 2
+    100042: joint5
+    100044: joint5 1
+    100046: joint5 2
+    100048: joint6
+    100050: joint6 1
+    100052: joint6 2
+    100054: joint7
+    100056: joint8
+    100058: joint8 1
+    100060: joint8 2
+    100062: joint9
+    100064: joint9 1
+    100066: joint9 2
+    100068: locator1
+    100070: pCylinder4
+    100072: pCylinder5
+    100074: pCylinder6
+    100076: pCylinder7
+    100078: pCylinder8
+    400000: BulbSpider
+    400002: //RootNode
+    400004: group
+    400006: joint1
+    400008: joint10
+    400010: joint10 1
+    400012: joint10 2
+    400014: joint11
+    400016: joint11 1
+    400018: joint11 2
+    400020: joint12
+    400022: joint13
+    400024: joint14
+    400026: joint15
+    400028: joint2
+    400030: joint3
+    400032: joint3 1
+    400034: joint3 2
+    400036: joint4
+    400038: joint4 1
+    400040: joint4 2
+    400042: joint5
+    400044: joint5 1
+    400046: joint5 2
+    400048: joint6
+    400050: joint6 1
+    400052: joint6 2
+    400054: joint7
+    400056: joint8
+    400058: joint8 1
+    400060: joint8 2
+    400062: joint9
+    400064: joint9 1
+    400066: joint9 2
+    400068: locator1
+    400070: pCylinder4
+    400072: pCylinder5
+    400074: pCylinder6
+    400076: pCylinder7
+    400078: pCylinder8
+    4300000: BulbSpider
+    7400000: SpiderWalk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: BulbSpider
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SpiderWalk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BulbSpider
+        weight: 1
+      - path: group
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3 2
+        weight: 1
+      - path: joint1/joint2/joint3 2/joint4 2
+        weight: 1
+      - path: joint1/joint2/joint3 2/joint4 2/joint5 2
+        weight: 1
+      - path: joint1/joint2/joint3 2/joint4 2/joint5 2/joint6 2
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8 2
+        weight: 1
+      - path: joint1/joint7/joint8 2/joint9 2
+        weight: 1
+      - path: joint1/joint7/joint8 2/joint9 2/joint10 2
+        weight: 1
+      - path: joint1/joint7/joint8 2/joint9 2/joint10 2/joint11 2
+        weight: 1
+      - path: joint1/joint12
+        weight: 1
+      - path: joint1/joint12/joint3
+        weight: 1
+      - path: joint1/joint12/joint3/joint4
+        weight: 1
+      - path: joint1/joint12/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint12/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint1/joint13
+        weight: 1
+      - path: joint1/joint13/joint3 1
+        weight: 1
+      - path: joint1/joint13/joint3 1/joint4 1
+        weight: 1
+      - path: joint1/joint13/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: joint1/joint13/joint3 1/joint4 1/joint5 1/joint6 1
+        weight: 1
+      - path: joint1/joint14
+        weight: 1
+      - path: joint1/joint14/joint8
+        weight: 1
+      - path: joint1/joint14/joint8/joint9
+        weight: 1
+      - path: joint1/joint14/joint8/joint9/joint10
+        weight: 1
+      - path: joint1/joint14/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: joint1/joint15
+        weight: 1
+      - path: joint1/joint15/joint8 1
+        weight: 1
+      - path: joint1/joint15/joint8 1/joint9 1
+        weight: 1
+      - path: joint1/joint15/joint8 1/joint9 1/joint10 1
+        weight: 1
+      - path: joint1/joint15/joint8 1/joint9 1/joint10 1/joint11 1
+        weight: 1
+      - path: locator1
+        weight: 1
+      - path: pCylinder4
+        weight: 1
+      - path: pCylinder5
+        weight: 1
+      - path: pCylinder6
+        weight: 1
+      - path: pCylinder7
+        weight: 1
+      - path: pCylinder8
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 

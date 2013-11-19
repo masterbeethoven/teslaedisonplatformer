@@ -49,6 +49,8 @@
      <Compile Include="Assets\Scripts\EnemyDeath2.cs" />
      <Compile Include="Assets\Scripts\LoadScence.cs" />
      <Compile Include="Assets\Scripts\LoadScene2.cs" />
+     <Compile Include="Assets\Scripts\SpiderAnimation.cs" />
+     <Compile Include="Assets\Scripts\SpiderMove.cs" />
      <Compile Include="Assets\Scripts\TeslaRaygun.cs" />
      <Compile Include="Assets\Scripts\TextInstructions.cs" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />

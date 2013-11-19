@@ -1,0 +1,336 @@
+fileFormatVersion: 2
+guid: 08331ac42fc8644019293f156dbde6f5
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: joint1
+    100002: joint15
+    100004: joint16
+    100006: joint17
+    100008: joint18
+    100010: joint19
+    100012: joint2
+    100014: joint20
+    100016: joint21
+    100018: joint22
+    100020: joint23
+    100022: joint24
+    100024: joint25
+    100026: joint26
+    100028: joint27
+    100030: joint3
+    100032: joint4
+    100034: joint5
+    100036: joint6
+    100038: joint7
+    100040: joint8
+    100042: joint9
+    100044: pCylinder32
+    100046: pCylinder33
+    100048: pCylinder34
+    100050: pCylinder35
+    100052: pCylinder36
+    100054: pCylinder37
+    100056: pCylinder41
+    100058: pCylinder42
+    100060: pCylinder43
+    100062: pCylinder44
+    100064: pCylinder45
+    100066: pCylinder46
+    100068: pCylinder47
+    100070: pCylinder48
+    100072: pCylinder49
+    100074: pCylinder50
+    100076: pCylinder51
+    100078: pCylinder52
+    100080: pCylinder53
+    100082: pCylinder54
+    100084: pCylinder55
+    100086: pCylinder56
+    100088: pCylinder60
+    100090: pCylinder61
+    100092: pCylinder62
+    100094: pCylinder63
+    100096: pCylinder66
+    100098: pCylinder69
+    100100: pCylinder84
+    100102: pCylinder85
+    100104: pCylinder86
+    100106: pCylinder87
+    100108: pCylinder88
+    100110: pCylinder91
+    100112: pCylinder92
+    100114: pCylinder95
+    100116: pCylinder96
+    100118: pCylinder98
+    100120: polySurface2
+    100122: //RootNode
+    400000: joint1
+    400002: joint15
+    400004: joint16
+    400006: joint17
+    400008: joint18
+    400010: joint19
+    400012: joint2
+    400014: joint20
+    400016: joint21
+    400018: joint22
+    400020: joint23
+    400022: joint24
+    400024: joint25
+    400026: joint26
+    400028: joint27
+    400030: joint3
+    400032: joint4
+    400034: joint5
+    400036: joint6
+    400038: joint7
+    400040: joint8
+    400042: joint9
+    400044: pCylinder32
+    400046: pCylinder33
+    400048: pCylinder34
+    400050: pCylinder35
+    400052: pCylinder36
+    400054: pCylinder37
+    400056: pCylinder41
+    400058: pCylinder42
+    400060: pCylinder43
+    400062: pCylinder44
+    400064: pCylinder45
+    400066: pCylinder46
+    400068: pCylinder47
+    400070: pCylinder48
+    400072: pCylinder49
+    400074: pCylinder50
+    400076: pCylinder51
+    400078: pCylinder52
+    400080: pCylinder53
+    400082: pCylinder54
+    400084: pCylinder55
+    400086: pCylinder56
+    400088: pCylinder60
+    400090: pCylinder61
+    400092: pCylinder62
+    400094: pCylinder63
+    400096: pCylinder66
+    400098: pCylinder69
+    400100: pCylinder84
+    400102: pCylinder85
+    400104: pCylinder86
+    400106: pCylinder87
+    400108: pCylinder88
+    400110: pCylinder91
+    400112: pCylinder92
+    400114: pCylinder95
+    400116: pCylinder96
+    400118: pCylinder98
+    400120: polySurface2
+    400122: //RootNode
+    4300000: polySurface2
+    7400000: SentWalk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: polySurface2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SentWalk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint15
+        weight: 1
+      - path: joint1/joint2/joint15/joint16
+        weight: 1
+      - path: joint1/joint2/joint15/joint16/joint17
+        weight: 1
+      - path: joint1/joint2/joint15/joint16/joint17/joint18
+        weight: 1
+      - path: joint1/joint2/joint19
+        weight: 1
+      - path: joint1/joint2/joint19/joint20
+        weight: 1
+      - path: joint1/joint2/joint19/joint20/joint21
+        weight: 1
+      - path: joint1/joint2/joint19/joint20/joint21/joint22
+        weight: 1
+      - path: joint1/joint5
+        weight: 1
+      - path: joint1/joint5/joint6
+        weight: 1
+      - path: joint1/joint5/joint6/joint7
+        weight: 1
+      - path: joint1/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: joint1/joint5/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: joint1/joint23
+        weight: 1
+      - path: joint1/joint23/joint24
+        weight: 1
+      - path: joint1/joint23/joint24/joint25
+        weight: 1
+      - path: joint1/joint23/joint24/joint25/joint26
+        weight: 1
+      - path: joint1/joint23/joint24/joint25/joint26/joint27
+        weight: 1
+      - path: pCylinder32
+        weight: 1
+      - path: pCylinder33
+        weight: 1
+      - path: pCylinder34
+        weight: 1
+      - path: pCylinder35
+        weight: 1
+      - path: pCylinder36
+        weight: 1
+      - path: pCylinder37
+        weight: 1
+      - path: pCylinder41
+        weight: 1
+      - path: pCylinder42
+        weight: 1
+      - path: pCylinder43
+        weight: 1
+      - path: pCylinder44
+        weight: 1
+      - path: pCylinder45
+        weight: 1
+      - path: pCylinder46
+        weight: 1
+      - path: pCylinder47
+        weight: 1
+      - path: pCylinder48
+        weight: 1
+      - path: pCylinder49
+        weight: 1
+      - path: pCylinder50
+        weight: 1
+      - path: pCylinder51
+        weight: 1
+      - path: pCylinder52
+        weight: 1
+      - path: pCylinder53
+        weight: 1
+      - path: pCylinder54
+        weight: 1
+      - path: pCylinder55
+        weight: 1
+      - path: pCylinder56
+        weight: 1
+      - path: pCylinder60
+        weight: 1
+      - path: pCylinder61
+        weight: 1
+      - path: pCylinder62
+        weight: 1
+      - path: pCylinder63
+        weight: 1
+      - path: pCylinder66
+        weight: 1
+      - path: pCylinder69
+        weight: 1
+      - path: pCylinder84
+        weight: 1
+      - path: pCylinder85
+        weight: 1
+      - path: pCylinder86
+        weight: 1
+      - path: pCylinder87
+        weight: 1
+      - path: pCylinder88
+        weight: 1
+      - path: pCylinder91
+        weight: 1
+      - path: pCylinder92
+        weight: 1
+      - path: pCylinder95
+        weight: 1
+      - path: pCylinder96
+        weight: 1
+      - path: pCylinder98
+        weight: 1
+      - path: polySurface2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 
