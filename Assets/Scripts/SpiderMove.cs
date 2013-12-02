@@ -34,7 +34,7 @@ public class SpiderMove : MonoBehaviour {
 		//animation.CrossFade( "SpiderWalk" );
 		if(Time.time - timer > animateDelay)
 		{
-		    transform.Translate(transform.right.normalized * Time.deltaTime * speed * direction);
+		    transform.Translate(transform.forward.normalized * Time.deltaTime * speed * direction);
 			//animation.CrossFade( "SpiderWalk" );
 		}
 		
