@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\EnemyDeath2.cs" />
      <Compile Include="Assets\Scripts\LoadScence.cs" />
      <Compile Include="Assets\Scripts\LoadScene2.cs" />
+     <Compile Include="Assets\Scripts\NextLevelCube.cs" />
      <Compile Include="Assets\Scripts\SpiderAnimation.cs" />
      <Compile Include="Assets\Scripts\SpiderMove.cs" />
      <Compile Include="Assets\Scripts\TeslaRaygun.cs" />
