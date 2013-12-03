@@ -11,10 +11,10 @@ GameObject:
   - 33: {fileID: 3300000}
   - 135: {fileID: 13500000}
   - 23: {fileID: 2300000}
-  - 114: {fileID: 11400004}
-  - 114: {fileID: 11400002}
   - 54: {fileID: 5400000}
   - 82: {fileID: 8200000}
+  - 114: {fileID: 11400008}
+  - 114: {fileID: 11400006}
   m_Layer: 0
   m_Name: SpiderEnemy
   m_TagString: Enemy
@@ -647,8 +647,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -124.797501, y: 2.44183159, z: 10.2456379}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -125.039444, y: 4.94213438, z: -72.4519196}
+  m_LocalScale: {x: .5, y: .5, z: .5}
   m_Children:
   - {fileID: 400082}
   m_Father: {fileID: 0}
@@ -1106,8 +1106,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100078}
-  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: -.707106829}
+  m_LocalPosition: {x: 0, y: 0, z: -.108352661}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400080}
@@ -1271,22 +1271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myRigidbody: {fileID: 5400000}
---- !u!114 &11400002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72de4148b03e04888ac575e5ddb2d38b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rayLength: 80
-  speed: 5
-  animateDelay: 2
-  turnDelay: 5
---- !u!114 &11400004
+--- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1297,6 +1282,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70f3d17eb3766412590f5fa5cb02037f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72de4148b03e04888ac575e5ddb2d38b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rayLength: 20
+  speed: 4
+  animateDelay: 1
+  turnDelay: 5
 --- !u!135 &13500000
 SphereCollider:
   m_ObjectHideFlags: 1
