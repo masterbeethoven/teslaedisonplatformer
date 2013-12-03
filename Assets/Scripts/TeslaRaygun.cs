@@ -5,7 +5,7 @@ public class TeslaRaygun : MonoBehaviour {
         
         //float scaleTrack = 0f;
         //float scaleBeam = 3f;
-        float bulletSpeed = 10f;
+        float bulletSpeed = 20f;
         public Rigidbody bullet;
         
         // Use this for initialization
