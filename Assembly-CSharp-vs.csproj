@@ -52,7 +52,9 @@
      <Compile Include="Assets\Scripts\NextLevelCube.cs" />
      <Compile Include="Assets\Scripts\NextLevelCube2.cs" />
      <Compile Include="Assets\Scripts\SpiderAnimation.cs" />
+     <Compile Include="Assets\Scripts\SpiderDeath.cs" />
      <Compile Include="Assets\Scripts\SpiderMove.cs" />
+     <Compile Include="Assets\Scripts\TeslaAnimation.cs" />
      <Compile Include="Assets\Scripts\TeslaRaygun.cs" />
      <Compile Include="Assets\Scripts\TextInstructions.cs" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
