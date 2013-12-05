@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{EC966E07-E9CC-6E17-C9F6-494C39DBEE4E}</ProjectGuid>
+	<ProjectGuid>{1AC30653-74ED-2735-1A15-DF30B04E873F}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -45,15 +45,18 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BulletControl.cs" />
+     <Compile Include="Assets\Scripts\CameraMove.cs" />
      <Compile Include="Assets\Scripts\CharacterMoveNick.cs" />
      <Compile Include="Assets\Scripts\EnemyDeath2.cs" />
      <Compile Include="Assets\Scripts\LoadScence.cs" />
      <Compile Include="Assets\Scripts\LoadScene2.cs" />
      <Compile Include="Assets\Scripts\NextLevelCube.cs" />
+     <Compile Include="Assets\Scripts\NextLevelCube2.cs" />
      <Compile Include="Assets\Scripts\SentinalAnimation.cs" />
      <Compile Include="Assets\Scripts\SentinelMove.cs" />
      <Compile Include="Assets\Scripts\SineFlash.cs" />
      <Compile Include="Assets\Scripts\SpiderAnimation.cs" />
+     <Compile Include="Assets\Scripts\SpiderDeath.cs" />
      <Compile Include="Assets\Scripts\SpiderMove.cs" />
      <Compile Include="Assets\Scripts\TeslaAnimation.cs" />
      <Compile Include="Assets\Scripts\TeslaRaygun.cs" />
@@ -63,7 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{E3F2B9CC-541F-41DB-C947-32C818C7EC11}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{DB738962-C42A-3EC6-503B-464E8BD94BCA}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
