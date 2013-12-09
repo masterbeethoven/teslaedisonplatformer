@@ -14,7 +14,7 @@ public class EnemyDeath2 : MonoBehaviour {
         }
         
         void OnTriggerEnter(Collider other) {
-        if (other.tag == "Enemy"){        
+        if (other.tag == "Enemy" ){        
 		transform.position = new Vector3(-121f , 7f, 175f);
 		}
                 

@@ -14,7 +14,6 @@ GameObject:
   - 54: {fileID: 5400000}
   - 82: {fileID: 8200000}
   - 114: {fileID: 11400008}
-  - 114: {fileID: 11400006}
   m_Layer: 0
   m_Name: SpiderEnemy
   m_TagString: Enemy
@@ -647,8 +646,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -125.039444, y: 4.94213438, z: -72.4519196}
-  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_LocalPosition: {x: -125.81797, y: .785554886, z: -140.85466}
+  m_LocalScale: {x: .270212203, y: .270212203, z: .270212203}
   m_Children:
   - {fileID: 400082}
   m_Father: {fileID: 0}
@@ -1271,17 +1270,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myRigidbody: {fileID: 5400000}
---- !u!114 &11400006
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70f3d17eb3766412590f5fa5cb02037f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1

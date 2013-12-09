@@ -24,8 +24,10 @@ public class SentinelMove : MonoBehaviour {
 	Ray ray = new Ray (transform.position, transform.forward);
 	RaycastHit rayHit = new RaycastHit();
 
-	if(Physics.Raycast(ray, out rayHit, rayLength)) //check to see if it hits the player somehow
-	{
+	Physics.Raycast(ray, out rayHit, rayLength);
+		//check to see if it hits the player somehow
+	if(rayHit.collider.tag == "Player") {
+		
 		transform.Translate(transform.forward.normalized * Time.deltaTime * speed);
 		//animation.CrossFade( "SentWalk" );
 		}
