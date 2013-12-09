@@ -11,11 +11,13 @@ public class SineFlash : MonoBehaviour {
 	void Update () {
 
 		renderer.enabled = false;
+		//collider.enabled = false;
 
 		
 		if(Mathf.Sin(Time.time * 75f) > .8f)
 		{
 			renderer.enabled = true;
+			collider.enabled = true;
 		}
 		
 		transform.localScale += new Vector3(Mathf.Sin (Time.time*10f), Mathf.Sin (Time.time*10f), Mathf.Sin (Time.time*10f)) * .08f;

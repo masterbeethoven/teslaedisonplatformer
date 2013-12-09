@@ -18,7 +18,7 @@ public class BulletControl : MonoBehaviour {
                         bulletBool = true;
                         //Debug.Log ("TimerStart");
                 }
-                if ((bulletBool == true) && ((bulletTime + 1.5f) < Time.time)) {
+                if ((bulletBool == true) && ((bulletTime + 0.9f) < Time.time)) {
                         //Debug.Log ("Destorying");
                         transform.localScale -= new Vector3(0f, 1f, 0f);
                         Destroy(gameObject);
@@ -26,13 +26,13 @@ public class BulletControl : MonoBehaviour {
         }
         
         void OnTriggerEnter(Collider other) {
-                if (other.tag == "Wall") {
+                if (other.tag == "Wall" || other.tag == "Enemy") {
                         //Debug.Log("Wall hit");
                         Destroy (gameObject);
                 }
-                if (other.tag == "Enemy") {
-                        Debug.Log ("Supressing Fire!");
-						Destroy (other.gameObject);
-                }
+                //if (other.tag == "Enemy") {
+                        //Debug.Log ("Supressing Fire!");
+						//Destroy (other.gameObject);
+               // }
         }
 }
