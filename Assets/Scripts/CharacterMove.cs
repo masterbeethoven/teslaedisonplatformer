@@ -9,6 +9,7 @@ public class CharacterMove : MonoBehaviour {
 	public float fallSpeed = 10f;
 	private Vector3 startPosition;
 	bool grounded;
+	//public AudioClip Footstepssfx;
 	
 	// Use this for initialization
 	void Start () {
@@ -44,7 +45,18 @@ public class CharacterMove : MonoBehaviour {
 				inputVector += Vector3.up * jumpSpeed;
 			}
 		}
+		
+		if (Input.GetAxis("Horizontal")!= 0) {
+
+			if (audio.isPlaying == false){
+				audio.Play();
+			}
 	}
+		else {
+		audio.Stop();
+	}
+	}
+
 	
 	void FixedUpdate () 
 	{	

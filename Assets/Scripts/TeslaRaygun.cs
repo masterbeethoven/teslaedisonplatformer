@@ -7,6 +7,7 @@ public class TeslaRaygun : MonoBehaviour {
         //float scaleBeam = 3f;
         float bulletSpeed = 20f;
         public Rigidbody bullet;
+		public AudioClip raygunsfx;
         
         // Use this for initialization
         void Start () {
@@ -38,6 +39,10 @@ public class TeslaRaygun : MonoBehaviour {
                         }
                 }
                 */
+		
+			if (Input.GetKeyDown(KeyCode.Space))
+				//audio.PlayOneShot(raygunsfx);
+			AudioSource.PlayClipAtPoint(raygunsfx, transform.position);
         }
         
         void FixedUpdate() {

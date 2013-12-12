@@ -13,9 +13,9 @@ public class NextLevelCube : MonoBehaviour {
 	
 	}
 	
-	void OnTriggerEnter(){
+	//void OnTriggerEnter(){
 		
-		Application.LoadLevel("level2");
+		//Application.LoadLevel("level2");
 		
-	}
+	//}
 }

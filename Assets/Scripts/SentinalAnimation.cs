@@ -15,14 +15,14 @@ public class SentinalAnimation : MonoBehaviour {
 	Ray ray = new Ray (transform.position, transform.forward);
 	RaycastHit rayHit = new RaycastHit();
 
-	Physics.Raycast(ray, out rayHit, rayLength);
+	if (Physics.Raycast(ray, out rayHit, rayLength) && rayHit.collider.tag == "Player"){
 		//check to see if it hits the player somehow
-	if (rayHit.collider.tag == "Player"){
+	//if (rayHit.collider.tag == "Player"){
 		
 		//transform.Translate(transform.forward.normalized * Time.deltaTime * speed);
 		animation.CrossFade( "SentWalk" );
+		//}
 		}
-
 	
 	}
 }

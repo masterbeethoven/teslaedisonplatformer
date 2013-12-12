@@ -7,6 +7,7 @@ public class CharacterMoveNick : MonoBehaviour {
 	public float speed = 10f;
 	public float jumpSpeed = 10f;
 	private Vector3 startPosition;
+	public AudioClip Footstepssfx;
 	
 	// Use this for initialization
 	void Start () {
@@ -40,6 +41,8 @@ public class CharacterMoveNick : MonoBehaviour {
                 inputVector += Vector3.up * jumpSpeed;
             }
         }
+		if (Input.GetKeyDown(KeyCode.D))
+			audio.PlayOneShot(Footstepssfx);
 	}
 	
 	void FixedUpdate () {
